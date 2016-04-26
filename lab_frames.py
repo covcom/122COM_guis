@@ -4,7 +4,7 @@ from tkinter import *
 class Gui:
     def __init__(self, root):
         self.root = root
-        
+
         self.label = Label(self.root,text=0)
         self.label.pack(fill=BOTH,expand=True)
 
@@ -24,7 +24,6 @@ class Gui:
 def main():
     root = Tk()
     # set the starting size of the window
-    #root.geometry('%dx%d' % (320,240))
     gui = Gui(root)
     root.mainloop()
 
