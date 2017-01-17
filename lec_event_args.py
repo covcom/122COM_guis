@@ -14,10 +14,10 @@ class Gui:
         Button(self.root, text='2', \
             command=self.pressed_2).pack(side=LEFT)
 
-    def pressed_1(self):
+    def pressed_1(self): # seperate functions to each button
         self.label.config(text='Pressed 1')
 
-    def pressed_2(self):
+    def pressed_2(self): # very similar code
         self.label.config(text='Pressed 2')
 
 def main():
